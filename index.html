@@ -1,24 +1,25 @@
 <!DOCTYPE html>
-<html lang="pt-br" style="padding:50px; background-color: #F0F8FF;">
+<html lang="pt-br">
   <head>
     <meta charset="utf-8">
     <title>Blog</title>
         <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css.css"/>
   </head>
   <body>
-    <header class="container-fluid" style="background-color: #E6E6FA">
+    <header class="container-fluid">
       <div class="row">
-        <div class="col-3"><img src="img/imagem1.jpg" alt="Minha logo" style="margin: 15px;" height="80px" width="160px"></div>
+        <div class="col-3"><img src="img/imagem1.jpg" alt="Minha logo" id="logo" height="80px" width="160px"></div>
         <div class="col-5"></div>
         <div class="col-4">
           <div class="row">
             <div class="col-12">
               <ul class="nav justify-content-center">
-                <li class="nav-item" style="padding:5px;"><a href="http://www.google.com">Tópico 1</a></li>
-                <li class="nav-item" style="padding:5px;"><a href="http://www.google.com">Tópico 2</a></li>
-                <li class="nav-item" style="padding:5px;"><a href="http://www.google.com">Tópico 3</a></li>
-                <li class="nav-item" style="padding:5px;"><a href="http://www.google.com">Tópico 4</a></li>
+                <li class="nav-item" id="listatopicoh"><a href="http://www.google.com">Tópico 1</a></li>
+                <li class="nav-item" id="listatopicoh"><a href="http://www.google.com">Tópico 2</a></li>
+                <li class="nav-item" id="listatopicoh"><a href="http://www.google.com">Tópico 3</a></li>
+                <li class="nav-item" id="listatopicoh"><a href="http://www.google.com">Tópico 4</a></li>
               </ul>
             </div>
           </div>
@@ -27,7 +28,7 @@
               <nav class="navbar navbar-expand-sm justify-content-center">
                   <form class="form-inline">
                     <input class="form-control" type="text" placeholder="Search">
-                    <button class="btn btn-success" type="button">Search</button>
+                    <button class="btn btn-primary" type="button">Search</button>
                   </form>
               </nav>
             </div>
@@ -37,19 +38,19 @@
     </header>
     <div class="container-fluid">
       <div class="row">
-            <div class="col-12" style="background-color: #FFF0F5">
+            <div class="col-12" id="listasecaoh">
               <ul class="nav justify-content-center">
-                <li class="nav-item" style="padding:5px;"><a href="http://www.google.com">Seção 1</a></li>
-                <li class="nav-item" style="padding:5px;"><a href="http://www.google.com">Seção 2</a></li>
-                <li class="nav-item" style="padding:5px;"><a href="http://www.google.com">Seção 3</a></li>
-                <li class="nav-item" style="padding:5px;"><a href="http://www.google.com">Seção 4</a></li>
+                <li class="nav-item" id="itemlistasecaoh"><a href="http://www.google.com">Seção 1</a></li>
+                <li class="nav-item" id="itemlistasecaoh"><a href="http://www.google.com">Seção 2</a></li>
+                <li class="nav-item" id="itemlistasecaoh"><a href="http://www.google.com">Seção 3</a></li>
+                <li class="nav-item" id="itemlistasecaoh"><a href="http://www.google.com">Seção 4</a></li>
               </ul>
             </div>
       </div>
     </div>
     <div class="container-fluid h-100">
       <div class="row">
-        <div class="col-3" style="background-color: #F5F5F5">
+        <div class="col-3" id="navlateral">
           <ul class="nav flex-column">
             <li class="nav-item"><h4><a href="http://www.google.com">Seção 1</a></h4></li>
             <li class="nav-item"><h4><a href="http://www.google.com">Seção 2</a></h4></li>
@@ -69,9 +70,14 @@
           </ul>
         </div>
         <div class="col-6">
-          Parte central
+          <div class="row h-75">
+             
+          </div>
+          <div class="row h-25" id="rodape">
+
+          </div>
         </div>
-        <div class="col-3" style="background-color: #F5F5F5">
+        <div class="col-3" id="navlateral">
           <ul class="nav flex-column">
             <li class="nav-item"><h4><a href="http://www.google.com">Seção 1</a></h4></li>
             <li class="nav-item"><h4><a href="http://www.google.com">Seção 2</a></h4></li>

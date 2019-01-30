@@ -1,0 +1,28 @@
+/*#id
+.class
+*/
+html{
+  padding:50px;
+  background-color: #F0F8FF;
+}
+header{
+  background-color: #E6E6FA;
+}
+#logo{
+  margin: 15px;
+}
+#listatopicoh{
+  padding:10px;
+}
+#itemlistasecaoh{
+  padding:5px;
+}
+#listasecaoh{
+  background-color: #FFF0F5;
+}
+#navlateral{
+  background-color: #F5F5F5;
+}
+#rodape{
+  background-color: #E6E6FA;
+}
